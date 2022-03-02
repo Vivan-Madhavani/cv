@@ -53,17 +53,17 @@ p {
 .basketball-Image {
     width: 25%;
     float: right;
-    margin: 30px;
+    margin: 50px;
 }
 .computer-Image {
     width: 25%;
     float: left;
-    margin: 30px;
+    margin: 50px;
 }
 .art-Image {
     width: 25%;
     float: left;
-    margin: 30px;
+    margin: 50px;
 }
 .bottom-cloud {
     position: absolute ;
@@ -123,6 +123,7 @@ p {
 .contact-message {
     width: 50%;
     margin: 40px auto 60px;
+    font-size: 23px;
 }
 .footer-link{
     color: white;
