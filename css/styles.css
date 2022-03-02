@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: 'Dancing Script', serif;
+    font-size: 20px;
     background-color: #ffffff;
     margin: 0;
 }
@@ -11,9 +12,11 @@ h1 {
 }
 h2 {
     font-family:'Pacifico', sans-serif;
+    font-size: 40px;
 }
 h3 {
     font-family:'pacifico' , sans-serif;
+    font-size: 30px;
 }
 hr {
     border-style: dotted none none;
@@ -53,17 +56,17 @@ p {
 .basketball-Image {
     width: 25%;
     float: right;
-    margin: 50px;
+    margin: 30px;
 }
 .computer-Image {
     width: 25%;
     float: left;
-    margin: 50px;
+    margin: 30px;
 }
 .art-Image {
     width: 25%;
     float: left;
-    margin: 50px;
+    margin: 30px;
 }
 .bottom-cloud {
     position: absolute ;
@@ -88,6 +91,7 @@ p {
 }
 .mail {
     font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
 .btn {
     background: #000000;
@@ -117,19 +121,26 @@ p {
   }
 
 .intro {
-    width: 50%;
+    width: 30%;
     margin: auto;
 }
 .contact-message {
-    width: 50%;
+    width: 40%;
     margin: 40px auto 60px;
-    font-size: 23px;
 }
 .footer-link{
     color: white;
     font-family: serif;
     margin: 10px 20px;
+    text-decoration: none;
 }
 .footer-link:hover {
     color: grey;
+}
+.skill-hr {
+    border-style: dotted none none;
+    border-width: 4px;
+    color: lightgrey;
+    width: 3%;
+    margin: 75px auto;
 }
