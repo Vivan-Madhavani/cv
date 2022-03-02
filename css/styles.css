@@ -127,12 +127,12 @@ p {
     width: 40%;
     margin: 40px auto 60px;
 }
-a {
+.footer-link{
     color: white;
     font-family: serif;
     margin: 10px 20px;
     text-decoration: none;
 }
-a:hover {
+.footer-link:hover {
     color: grey;
 }
