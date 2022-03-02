@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: 'Dancing Script', serif;
     font-size: 20px;
-    background-color: white;
+    background-color: #ffffff;
     margin: 0;
 }
 h1 {
@@ -33,7 +33,7 @@ p {
     font-size: 40px;
 }
 .top-container {
-    background-color: white;
+    background-color: #ffffff;
     position: relative;
     padding-top: 100px;
     text-align: center;
