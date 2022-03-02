@@ -23,9 +23,10 @@ hr {
     border-width: 5px;
     color: grey;
     width: 4%;
-    margin: 50px auto 50px auto;
+    margin: 100px auto;
 }
 p {
+    line-height: 2;
     font-size: 23px;
 }
 .programmer {
@@ -38,11 +39,15 @@ p {
     padding-top: 100px;
     text-align: center;
 }
+.middle-container{
+    margin: 100px 0;
+}
 .bottom-container {
     background-color: black;
     line-height: 2;
     color: white;
     font-family: serif;
+    padding: 50px 0 20px;
 }
 .myImage{
     height: 350px;
@@ -65,17 +70,17 @@ p {
 }
 .bottom-cloud {
     position: absolute ;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 .copyright {
     font-family: serif;
-    font-size: medium;
+    font-size: 0.90rem ;
     color: white;
 }
 .skill-row {
@@ -88,23 +93,46 @@ p {
     font-family: 'Dancing Script', cursive;
 }
 .btn {
-    background: black;
-  background-image: -webkit-linear-gradient(top, black, grey);
-  background-image: -moz-linear-gradient(top, black, grey);
-  background-image: -ms-linear-gradient(top, black, grey);
-  background-image: -o-linear-gradient(top, black, grey);
-  background-image: linear-gradient(to bottom, black, grey);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  line-height: 5;
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    text-decoration: none;
+  }
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
-.footer-link {
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a {
     color: white;
     font-family: serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
 }
