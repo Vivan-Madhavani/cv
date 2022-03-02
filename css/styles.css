@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    font-family: 'Dancing Script', serif;
+    font-size: 20px;
+    background-color: #E4F9F5;
+    margin: 0;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin-top: 50px auto 0 auto;
+}
+h2 {
+    font-family:'Pacifico', sans-serif;
+    font-size: 40px;
+}
+h3 {
+    font-family:'pacifico' , sans-serif;
+    font-size: 30px;
+}
+hr {
+    border-style: dotted none none;
+    border-width: 5px;
+    color: grey;
+    width: 4%;
+    margin: 50px auto 50px auto;
+}
+p {
+    font-size: 23px;
+}
+.programmer {
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+.bottom-container {
+    background-color: black;
+    line-height: 2;
+    color: white;
+    font-family: serif;
+}
+.myImage{
+    height: 350px;
+    width: 350px;
+}
+.basketball-Image {
+    width: 25%;
+    float: right;
+    margin: 30px;
+}
+.computer-Image {
+    width: 25%;
+    float: left;
+    margin: 30px;
+}
+.art-Image {
+    width: 25%;
+    float: left;
+    margin: 30px;
+}
+.bottom-cloud {
+    position: absolute ;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.copyright {
+    font-family: serif;
+    font-size: medium;
+    color: white;
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.mail {
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+    background: black;
+  background-image: -webkit-linear-gradient(top, black, grey);
+  background-image: -moz-linear-gradient(top, black, grey);
+  background-image: -ms-linear-gradient(top, black, grey);
+  background-image: -o-linear-gradient(top, black, grey);
+  background-image: linear-gradient(to bottom, black, grey);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 5;
+}
+.footer-link {
+    color: white;
+    font-family: serif;
+}
