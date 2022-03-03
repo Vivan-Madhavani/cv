@@ -132,7 +132,7 @@ p {
     color: white;
     font-family: serif;
     margin: 10px 20px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .footer-link:hover {
     color: grey;
