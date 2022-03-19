@@ -78,6 +78,9 @@ p {
     right: 300px;
     top: 40px;
 }
+.mountain-img {
+ width : 40%;   
+}
 .copyright {
     font-family: serif;
     font-size: 0.90rem ;
